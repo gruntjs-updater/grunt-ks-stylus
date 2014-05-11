@@ -132,9 +132,10 @@ module.exports = function(grunt) {
       }
     });
 
-    // Load Nib if available
+    // Load Nib and Kouto Swiss if available
     try {
       s.use(require('nib')());
+      s.use(require('kouto-swiss')());
     } catch (e) {}
 
     s.render(function(err, css) {
