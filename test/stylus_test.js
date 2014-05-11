@@ -40,6 +40,17 @@ exports.stylus = {
 
     test.done();
   },
+  "kouto-swiss": function(test) {
+    'use strict';
+
+    test.expect(1);
+
+    var actual = readFile('tmp/kouto-swiss_.css');
+    var expected = readFile('test/expected/kouto-swiss_/kouto-swiss_.css');
+    test.equal(expected, actual, 'Kouto Swiss should be available to include');
+
+    test.done();
+  },
   autocompress: function(test) {
     'use strict';
 

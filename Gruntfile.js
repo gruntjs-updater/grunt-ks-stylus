@@ -54,6 +54,14 @@ module.exports = function(grunt) {
           paths: ['test/fixtures/include']
         }
       },
+      "kouto-swiss": {
+        files: {
+          'tmp/kouto-swiss_.css': 'test/fixtures/kouto-swiss_/kouto-swiss_.styl'
+        },
+        options: {
+          paths: ['test/fixtures/include']
+        }
+      },
       autocompress: {
         files: {
           'tmp/autocompress.css': 'test/fixtures/stylus.styl'
