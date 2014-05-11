@@ -12,6 +12,8 @@ The only difference is the inclusion of [Kouto Swiss](https://www.npmjs.org/pack
 When Kouto Swiss will be officialy released, and gain some users, I will proposed a pull request to the original grunt task.
 
 **grunt-contrib-stylus** base version for the fork : `0.15.1`.
+**kouto-swiss** version included : `0.0.4`.
+**nib** version included : `1.0.2`.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
