@@ -1,8 +1,17 @@
-# grunt-contrib-stylus v0.15.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-stylus.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-stylus) <a href="https://ci.appveyor.com/project/gruntjs/grunt-contrib-stylus"><img src="https://ci.appveyor.com/api/projects/status/3f708w3tww2lem3o/branch/master" alt="Build Status: Windows" height="18" /></a>
+# grunt-ks-stylus v0.0.1 
 
-> Compile Stylus files to CSS.
+[![NPM version](http://img.shields.io/npm/v/grunt-ks-stylus.svg)](https://www.npmjs.org/package/grunt-ks-stylus) [![Build Status](http://img.shields.io/travis/leny/grunt-ks-stylus.svg)](https://travis-ci.org/leny/grunt-ks-stylus) ![Dependency Status](https://david-dm.org/leny/grunt-ks-stylus.svg) ![Downloads counter](http://img.shields.io/npm/dm/grunt-ks-stylus.svg)
 
+> Compile Stylus (with Kouto Swiss framework) files to CSS.
 
+## Note
+
+This grunt task is forked (and will be rebased when source updates) from [grunt-contrib-stylus](https://www.npmjs.org/package/grunt-contrib-stylus).  
+The only difference is the inclusion of [Kouto Swiss](https://www.npmjs.org/package/kouto-swiss)' framework in the path.
+
+When Kouto Swiss will be officialy released, and gain some users, I will proposed a pull request to the original grunt task.
+
+**grunt-contrib-stylus** base version for the fork : `0.15.1`.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
@@ -21,14 +30,13 @@ grunt.loadNpmTasks('grunt-contrib-stylus');
 
 *This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.1](https://github.com/gruntjs/grunt-contrib-stylus/tree/grunt-0.3-stable).*
 
-
-
 ## Stylus task
 _Run this task with the `grunt stylus` command._
 
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 
-This task comes preloaded with [nib](http://visionmedia.github.com/nib/).
+This task comes preloaded with [nib](http://visionmedia.github.com/nib/) and [Kouto Swiss](https://www.npmjs.org/package/kouto-swiss).
+
 ### Options
 
 #### compress
@@ -77,7 +85,6 @@ If `Object`:
 * [ `[paths` ] - Type: `Array`, Default: `[]`. Image resolution path(s).
 
 See [url()](http://learnboost.github.io/stylus/docs/functions.url.html) for details.
-
 
 #### [use](https://github.com/LearnBoost/stylus/blob/master/docs/js.md#usefn)
 Type: `Array`

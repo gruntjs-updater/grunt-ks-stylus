@@ -1,23 +1,29 @@
 {
-  "name": "grunt-contrib-stylus",
-  "description": "Compile Stylus files to CSS.",
-  "version": "0.15.1",
-  "homepage": "https://github.com/gruntjs/grunt-contrib-stylus",
+  "name": "grunt-ks-stylus",
+  "description": "Compile Stylus (with Kouto Swiss framework) files to CSS. Forked from grunt-contrib-stylus.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/leny/grunt-ks-stylus",
   "author": {
-    "name": "Grunt Team",
-    "url": "http://gruntjs.com/"
+    "name": "Leny",
+    "url": "http://leny.me"
   },
+  "contributors": [
+    {
+      "name": "Grunt Team",
+      "url": "http://gruntjs.com/"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/gruntjs/grunt-contrib-stylus.git"
+    "url": "git://github.com/leny/grunt-ks-stylus.git"
   },
   "bugs": {
-    "url": "https://github.com/gruntjs/grunt-contrib-stylus/issues"
+    "url": "https://github.com/leny/grunt-ks-stylus/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/gruntjs/grunt-contrib-stylus/blob/master/LICENSE-MIT"
+      "url": "https://github.com/leny/grunt-ks-stylus/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -49,6 +55,9 @@
     "grunt": "~0.4.0"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "stylus",
+    "kouto",
+    "swiss"
   ]
 }
