@@ -1,4 +1,4 @@
-# grunt-ks-stylus v0.0.2 
+# grunt-ks-stylus v0.0.3 
 
 [![NPM version](http://img.shields.io/npm/v/grunt-ks-stylus.svg)](https://www.npmjs.org/package/grunt-ks-stylus) [![Build Status](http://img.shields.io/travis/leny/grunt-ks-stylus.svg)](https://travis-ci.org/leny/grunt-ks-stylus) ![Dependency Status](https://david-dm.org/leny/grunt-ks-stylus.svg) ![Downloads counter](http://img.shields.io/npm/dm/grunt-ks-stylus.svg)
 
@@ -12,7 +12,7 @@ The only difference is the inclusion of [Kouto Swiss](https://www.npmjs.org/pack
 When Kouto Swiss will be officialy released, and gain some users, I will proposed a pull request to the original grunt task.
 
 **grunt-contrib-stylus** base version for the fork : `0.15.1`.  
-**kouto-swiss** version included : `0.0.5`.  
+**kouto-swiss** version included : `0.0.7`.  
 **nib** version included : `1.0.2`.
 
 ## Getting Started
@@ -146,28 +146,9 @@ stylus: {
 
 ## Release History
 
- * 2014-04-23   v0.15.0   Bump stylus to 0.44
- * 2014-04-08   v0.14.0   Bump stylus to 0.43
- * 2014-03-01   v0.13.2   Fix limit option for urlfunc. Update copyright to 2014
- * 2014-02-27   v0.13.1   grunt.template.process is not needed
- * 2014-02-22   v0.13.0   Adds Data URI Image Inlining options. Fix "resolve url" option. Use chalk module to colorize terminal output. Emphasize spaces in object keys in the README.
- * 2014-01-08   v0.12.0   Update to stylus 0.42.0
- * 2013-12-02   v0.11.0   Update to stylus 0.41.0
- * 2013-11-07   v0.10.0   Update to stylus 0.40.0 and nib 1.0.1
- * 2013-10-20   v0.9.0   Update to stylus 0.38.0
- * 2013-08-20   v0.8.0   Update to stylus 0.37.0 and nib to 1.0.0
- * 2013-07-31   v0.7.0   Update to stylus 0.35
- * 2013-07-11   v0.6.0   Update to stylus 0.33
- * 2013-03-10   v0.5.0   Upgrade to stylus 0.32.1
- * 2013-02-22   v0.4.1   Support stylus `define` option.
- * 2013-02-15   v0.4.0   First official release for Grunt 0.4.0.
- * 2013-01-23   v0.4.0rc7   Updating grunt/gruntplugin dependencies to rc7. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.
- * 2013-01-09   v0.4.0rc5   Updating to work with grunt v0.4.0rc5. Switching to this.file api.
- * 2012-12-15   v0.4.0a   Conversion to grunt v0.4 conventions. Remove node v0.6 and grunt v0.3 support. Merge grunt-stylus features (plugin loading, embedding). Remove experimental destination wildcards.
- * 2012-10-12   v0.3.1   Rename grunt-contrib-lib dep to grunt-lib-contrib.
- * 2012-09-24   v0.3.0   Options no longer accepted from global config key. Individually compile into dest, maintaining folder structure.
- * 2012-09-17   v0.2.2   Tests refactored, better watch integration.
- * 2012-09-10   v0.2.0   Refactored from grunt-contrib into individual repo.
+* 2014-05-19   v0.0.3   Bump kouto-swiss to 0.0.7
+* 2014-05-13   v0.0.2   Bump kouto-swiss to 0.0.5
+* 2014-05-11   v0.0.1   Forked from grunt-contrib-stylus.
 
 ---
 
