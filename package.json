@@ -39,7 +39,7 @@
   "dependencies": {
     "stylus": "~0.45.1",
     "nib": "~1.0.2",
-    "kouto-swiss": "~0.1",
+    "kouto-swiss": "~0.1.2",
     "chalk": "~0.4.0",
     "async": "^0.9.0",
     "lodash": "~2.4.1"
