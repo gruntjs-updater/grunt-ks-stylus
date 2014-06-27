@@ -13,7 +13,7 @@ When Kouto Swiss will be officialy released, and gain some users, I will propose
 
 **grunt-contrib-stylus** base version for the fork : `0.15.1`.  
 **stylus** version included : `0.46.3`.  
-**kouto-swiss** version included : `0.1.3`.  
+**kouto-swiss** version included : `0.1.4`.  
 **nib** version included : `1.0.3`.
 
 ## Getting Started
