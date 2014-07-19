@@ -37,10 +37,10 @@
     "test": "grunt jshint test"
   },
   "dependencies": {
-    "stylus": "~0.47.1",
+    "stylus": "~0.47.2",
     "nib": "~1.0.3",
-    "kouto-swiss": "~0.8.5",
-    "chalk": "~0.5.0",
+    "kouto-swiss": "~0.9.1",
+    "chalk": "~0.5.1",
     "async": "^0.9.0",
     "lodash": "~2.4.1"
   },
