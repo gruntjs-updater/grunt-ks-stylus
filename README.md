@@ -1,4 +1,4 @@
-# grunt-ks-stylus v0.0.11 
+# grunt-ks-stylus v0.0.12 
 
 [![NPM version](http://img.shields.io/npm/v/grunt-ks-stylus.svg)](https://www.npmjs.org/package/grunt-ks-stylus) [![Build Status](http://img.shields.io/travis/leny/grunt-ks-stylus.svg)](https://travis-ci.org/leny/grunt-ks-stylus) ![Dependency Status](https://david-dm.org/leny/grunt-ks-stylus.svg) ![Downloads counter](http://img.shields.io/npm/dm/grunt-ks-stylus.svg)
 
@@ -12,8 +12,8 @@ The only difference is the inclusion of [Kouto Swiss](https://www.npmjs.org/pack
 When Kouto Swiss will be officialy released, and gain some users, I will proposed a pull request to the original grunt task.
 
 **grunt-contrib-stylus** base version for the fork : `0.15.1`.  
-**stylus** version included : `0.47.2`.  
-**kouto-swiss** version included : `0.9.1`.  
+**stylus** version included : `0.47.3`.  
+**kouto-swiss** version included : `0.9.2`.  
 **nib** version included : `1.0.3`.
 
 ## Getting Started
@@ -146,7 +146,8 @@ stylus: {
 
 ## Release History
 
-* 2014-07-05   v0.0.11   Bump kouto-swiss to 0.9.1, stylus to 0.47.2
+* 2014-07-25   v0.0.12  Bump kouto-swiss to 0.9.2, stylus to 0.47.3
+* 2014-07-05   v0.0.11  Bump kouto-swiss to 0.9.1, stylus to 0.47.2
 * 2014-07-08   v0.0.10  Bump kouto-swiss to 0.8.5
 * 2014-07-08   v0.0.9   Bump kouto-swiss to 0.8.4
 * 2014-07-05   v0.0.8   Bump kouto-swiss to 0.8.3, stylus to 0.47.1
