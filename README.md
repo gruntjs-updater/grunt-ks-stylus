@@ -4,6 +4,12 @@
 
 > Compile Stylus (with Kouto Swiss framework) files to CSS.
 
+## Warning
+
+You shouldn't use this plugin. Prefer [grunt-contrib-stylus](https://www.npmjs.org/package/grunt-contrib-stylus).
+
+* * *
+
 ## Note
 
 This grunt task is forked (and will be rebased when source updates) from [grunt-contrib-stylus](https://www.npmjs.org/package/grunt-contrib-stylus).  
