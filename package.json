@@ -37,9 +37,9 @@
     "test": "grunt jshint test"
   },
   "dependencies": {
-    "stylus": "~0.47.3",
+    "stylus": "~0.49.1",
     "nib": "~1.0.3",
-    "kouto-swiss": "~0.9.8",
+    "kouto-swiss": "~0.10.3",
     "chalk": "~0.5.1",
     "async": "^0.9.0",
     "lodash": "~2.4.1"

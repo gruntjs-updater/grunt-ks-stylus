@@ -1,4 +1,4 @@
-# grunt-ks-stylus v0.1.0
+# grunt-ks-stylus v0.1.1
 
 [![NPM version](http://img.shields.io/npm/v/grunt-ks-stylus.svg)](https://www.npmjs.org/package/grunt-ks-stylus) [![Build Status](http://img.shields.io/travis/leny/grunt-ks-stylus.svg)](https://travis-ci.org/leny/grunt-ks-stylus) ![Dependency Status](https://david-dm.org/leny/grunt-ks-stylus.svg) ![Downloads counter](http://img.shields.io/npm/dm/grunt-ks-stylus.svg)
 
@@ -152,6 +152,7 @@ stylus: {
 
 ## Release History
 
+* 2014-10-08   v0.1.1  Bump dependencies, deprecating plugin
 * 2014-08-05   v0.1.0  Bump kouto-swiss to 0.9.8
 * 2014-07-29   v0.0.13  Bump kouto-swiss to 0.9.3
 * 2014-07-25   v0.0.12  Bump kouto-swiss to 0.9.2, stylus to 0.47.3
