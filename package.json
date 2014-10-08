@@ -1,7 +1,7 @@
 {
   "name": "grunt-ks-stylus",
   "description": "Compile Stylus (with Kouto Swiss framework) files to CSS. Forked from grunt-contrib-stylus.",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "homepage": "https://github.com/leny/grunt-ks-stylus",
   "author": {
     "name": "Leny",
@@ -37,9 +37,9 @@
     "test": "grunt jshint test"
   },
   "dependencies": {
-    "stylus": "~0.47.2",
+    "stylus": "~0.47.3",
     "nib": "~1.0.3",
-    "kouto-swiss": "~0.9.1",
+    "kouto-swiss": "~0.9.8",
     "chalk": "~0.5.1",
     "async": "^0.9.0",
     "lodash": "~2.4.1"
@@ -47,7 +47,7 @@
   "devDependencies": {
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-clean": "~0.6.0",
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.13"
   },
