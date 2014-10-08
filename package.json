@@ -1,7 +1,7 @@
 {
   "name": "grunt-ks-stylus",
   "description": "Compile Stylus (with Kouto Swiss framework) files to CSS. Forked from grunt-contrib-stylus.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/leny/grunt-ks-stylus",
   "author": {
     "name": "Leny",
